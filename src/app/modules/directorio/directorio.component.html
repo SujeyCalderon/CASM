@@ -1,0 +1,33 @@
+<app-header-feed></app-header-feed>
+<app-head-direct></app-head-direct>
+<div class="main-container">
+    <aside class="sidebar">
+        <ul class="sidebar-ul">
+            <li class="sidebar-il"><a class="sidebar-a" href="#"><i class="fas fa-edit"></i> Agregar Nota</a></li>
+            <li class="sidebar-il"><a class="sidebar-a" href="#"><i class="fas fa-heart"></i> Favoritos</a></li>
+            <li class="sidebar-il"><a class="sidebar-a" href="#"><i class="fas fa-newspaper"></i> Publicaciones</a></li>
+        </ul>
+    </aside>
+    <div class="content">
+        <app-directorio-card 
+            [photo_profile]="'usuario.png'" 
+            [user_name]="'Dra. Lucía Cruz'" 
+            [description]="'Psicóloga clínica con enfoque en terapia cognitivo-conductual y bienestar emocional.'">
+        </app-directorio-card>
+        <app-directorio-card 
+            [photo_profile]="'usuario.png'" 
+            [user_name]="'Dr. Juan Pérez'" 
+            [description]="'Especialista en terapia familiar y orientación para adolescentes.'">
+        </app-directorio-card>
+        <app-directorio-card 
+            [photo_profile]="'usuario.png'" 
+            [user_name]="'Dra. María López'" 
+            [description]="'Psicoterapeuta con más de 10 años de experiencia en manejo del estrés y ansiedad.'">
+        </app-directorio-card>
+        <app-directorio-card 
+            [photo_profile]="'usuario.png'" 
+            [user_name]="'Dr. Carlos Martínez'" 
+            [description]="'Experto en terapia de pareja y resolución de conflictos familiares.'">
+        </app-directorio-card>
+    </div>
+</div>
